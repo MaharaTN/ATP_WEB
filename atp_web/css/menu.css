@@ -1,0 +1,162 @@
+/* Aluna: Mahara Teixeira Nunes 
+Matrícula: 1112021103948
+Cursando: Análise e Desenvolvimento de Sistemas  */
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+/* Style links */
+a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-family:'Courier New', Courier, monospace;
+background: seagreen;
+height: 60px;
+}
+
+nav h1{
+    font-size: 48px;
+    color: #ffffff;
+    padding: 10px 0;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+nav h2{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.fundo{
+    background-image: url(pexels-rachel-claire-5490778.jpg) class="img-fluid"; background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    background-color: seagreen;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    -webkit-box-shadow: 5px;
+    border-radius: 5px;
+
+}
+
+.nav-list li{
+    letter-spacing: 6px;
+    margin-left: 32px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.nav-list li:hover{
+    background-color:#156e3c;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 200px 200px 70px;
+    box-shadow: 0px 50px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.table-wrapper h1{
+    color: rgba(43, 156, 77, 0.726);
+    text-decoration: none;
+    transition: 0.3s;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 40px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 18px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+
+/* Style Input-Submit */
+
+.fl-table input{
+    background-color: #6c9e7e;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: rgba(12, 68, 12, 0.774);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.fl-table input:hover {  
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
